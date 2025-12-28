@@ -1,7 +1,0 @@
-.category__container {
-  position: relative;
-  margin-top: -10%;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  place-items: center;
-}
