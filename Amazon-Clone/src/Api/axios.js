@@ -6,9 +6,10 @@ const axiosInstance = axios.create({
   // import.meta.env.VITE_BACKEND_URL ||
   // "http://127.0.0.1:5001/clone-6181a/us-central1/api",
   // deployed version of firebase function
-  baseURL: "https://us-central1-clone-6181a.cloudfunctions.net/api",
+  // baseURL: "https://us-central1-clone-6181a.cloudfunctions.net/api",
   // deployed version of amazon server on render.com
-  // baseURL: "https://amazon-api-deploy-6bdm.onrender.com",
+  // baseURL: "https://evangadi-forum-deploy-0io8.onrender.com/",
+  baseURL: "https://amazon-api-deploy-2nd.onrender.com/",
 });
 
 export { axiosInstance };
